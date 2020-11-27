@@ -41,10 +41,6 @@ def main():
         loop=False
 
 
-def settingCSVFilePath():
-  global CSVFile 
-  CSVFile  = "/Users/danielvaughan/Desktop/Python/sample_data.csv"
-
 #Reading from source data csv, 1000 records at a time & creating DataFrame SourceData
 def readingInitialSourceCSVFile():
 
